@@ -30,7 +30,7 @@ for (const habitacion of habitaciones) {
   imgHabitacion.src = habitacion.img;
   nombreHabitacion.append(habitacion.modelo);
   precioHabitacion.append(`$${habitacion.precio}`);
-  botonComprar.append('Comprar');
+  botonComprar.append('Reservar');
   botonComprar.id = `${habitacion.id}`;
 
   botonComprar.onclick = () => {
